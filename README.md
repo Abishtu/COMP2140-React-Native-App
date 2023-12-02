@@ -28,6 +28,10 @@ Users also have the ability to update their in-app profile, this includes select
 |:-:|:-:|
 |Empty Profile|Created Profile|
 
+## Miscellaneous Features
+
+- Dark Mode/Light Mode, it can switch between a dark mode and light mode, this depends on colour mode preferences set by the users in their respective operating systems settings.
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
