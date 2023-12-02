@@ -2,7 +2,31 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # COMP2140 React Native App
 
-A React Native app developed as part of the final assignment for COMP2140 in The University of Queensland.
+A React Native app developed as part of the final assignment for the COMP2140 course in The University of Queensland. The application, SongTrax Mobile, is a mobile application developed in React Native that allows users to view song samples shared to geographic locations around the world created in the [SongTrax Web App](https://github.com/Abishtu/COMP2140-ReactJS-App). The application involves accessing a remote REST API and displaying its data to the users, it consists of multiple pages to effectively display data from the API to the users.
+
+## Map View
+
+Upon opening the app, users are presented with a map, this displays all locations that contain song samples, identified as a purple circle. If users select one of these circles they're presented with a list of all samples shared to that location, along with the locations name.
+
+|<img src="./screenshots/mapView.png" width="50%"/>|<img src="./screenshots/sampleList.jpg" width="50%"/>|
+|:-:|:-:|
+|Map View|Samples List|
+
+## Sample View
+
+When a user selects a sample, they are presented with a new page that shows further details of that sample and allows them to preview it.
+
+|<img src="./screenshots/sampleView.jpg" width="30%" />|
+|:-:|
+|Sample View|
+
+## Profile Page
+
+Users also have the ability to update their in-app profile, this includes selecting a profile name and picture.
+
+|<img src="./screenshots/emptyProfile.jpg" width="50%"/>|<img src="./screenshots/userProfile.jpg" width="50%"/>|
+|:-:|:-:|
+|Empty Profile|Created Profile|
 
 # Getting Started
 
